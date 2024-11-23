@@ -5,16 +5,23 @@ body{
     margin: 0;
 }
 
+.pageTopper{
+    display: flex;
+    justify-content: space-between;
+    background-color: #022326;
+    padding: .75rem 1.5rem;
+}
+
 /*Header CSS*/
 header {
     display: flex;
     justify-content: center;
-    padding: .5rem;
+    padding: 0rem;
     background-color: #022326;
 }
 
 header img{
-    height: 4rem;
+    height: 1.5rem;
 }
 
 /*Nav CSS*/
@@ -24,7 +31,6 @@ nav ul{
     display: flex;
     justify-content: center;
     margin: auto;
-    padding: 1.25rem;
     background-color: #022326;
 }
 
@@ -35,7 +41,9 @@ li a {
 }
 
 /*Main CSS*/
-
+main{
+    padding: 0 1.5rem;
+}
 
 /*Footer CSS*/
 
