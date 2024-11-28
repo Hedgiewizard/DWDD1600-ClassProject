@@ -80,9 +80,31 @@ li a {
     border-radius: .75rem;
 }
 
-
+/* Gallery Boxes and Co */
 h2 {
-    padding: 0 1.5rem;
+    padding: 0 2.1%;
 }
+
+.galleryBoxesBox{
+    display: flex;
+    justify-content: center;
+}
+
+.galleryBox{
+    margin: .25% 2.5%;
+}
+
+.galleryBoxImage{
+    width: 20vw;
+}
+
+.dishLabel{
+}
+
+.galleryMore{
+    padding: 0 1.5rem 3rem 1.5rem;
+}
+
+
 /*Footer CSS*/
 
