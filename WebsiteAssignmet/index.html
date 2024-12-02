@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta Tags -->
     <meta name="description" content="This is the index file for the SirCooksALot recipe website. This page specifically is for showing a gallery of the recipes currently on the site."/>
     <meta name="author" content="Grace Lewis">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
     <title>SirCooksALot - Gallery</title>
-    <!-- <link rel="stylesheet" href="websiteAssignment.css"> -->
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="websiteAssignment.css">
     <!-- I did start the stylesheet part so I'm just commenting it out.  -->
+    <!-- Fonts & Such -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <!-- Start of the header -->
     <div class="pageTopper">
         <header>
             <div class="nameAndLogo">
-                <img src="../images/placeholderImages/logoPlaceholder.png" alt=""> <!--add logo image here--> <!--Go back and find the actual logo you had and add it here. This is just there so you can make sure everything works--> <!--The actual logo is saved with my personal projects on an external hard drive-->
+                <!--<img src="../images/placeholderImages/logoPlaceholder.png" alt="">--> <!--add logo image here--> <!--Go back and find the actual logo you had and add it here. This is just there so you can make sure everything works--> <!--The actual logo is saved with my personal projects on an external hard drive-->
                 <!-- <p>SirCooksALot</p> -->
                 <h1>SirCooksALot</h1>
                 <p>From our kitchen to yours</p>
@@ -34,7 +41,7 @@
 
     <!-- Start of the main -->
     <main>
-        <h1>Recipe Gallery</h1>
+        <h1 class="titleMatchHeader">Recipe Gallery</h1>
         <div class="pageNav"> <!--I don't know what else I'd call it-->
             <h1>Here are Some Recipes my Family and I Love!</h1>
             <div class="sugestionsButtonsGroup">
@@ -45,7 +52,7 @@
             </div>
         </div>
         <!-- Dinners -->
-        <div id="dinnerBox">
+        <div id="dinnerBox" class="sugestionSection">
             <h2>Go to Dinners</h2>
             <div class="galleryBoxesBox"> <!--See if I can have these be filler for a bit while I get the info from my dad so these can link somewhere-->
                 <div class="galleryBox"><a href="/WebsiteAssignmet/recipeOutline.html">
@@ -66,11 +73,16 @@
                     <img src="/images/placeholderImages/RecipePlaceholder.png" class="galleryBoxImage" alt="">
                     <label class="dishLabel">Dish Label</label>
                 </div>
+                <div class="galleryBox"> <!--The Label tag might be easier to use here. I don't know yet though-->
+                    <img src="/images/placeholderImages/RecipePlaceholder.png" class="galleryBoxImage" alt="">
+                    <label class="dishLabel">Dish Label</label>
+                </div>
             </div>
-            <p class="galleryMore">More...</p> <!--Probably will either need to learn how to make that more button work or get rid of it-->
+            <!-- <p class="galleryMore">More...</p>  -->
+            <!--Probably will either need to learn how to make that more button work or get rid of it-->
         </div>
         <!-- Breakfast -->
-        <div id="breakfastBox">
+        <div id="breakfastBox" class="sugestionSection">
             <h2>Spice up Breakfast</h2>
             <div class="galleryBoxesBox"> <!--See if I can have these be filler for a bit while I get the info from my dad so these can link somewhere-->
                 <div class="galleryBox"> <!--The Label tag might be easier to use here. I don't know yet though-->
@@ -89,11 +101,16 @@
                     <img src="/images/placeholderImages/RecipePlaceholder.png" class="galleryBoxImage" alt="">
                     <label class="dishLabel">Dish Label</label>
                 </div>
+                <div class="galleryBox"> <!--The Label tag might be easier to use here. I don't know yet though-->
+                    <img src="/images/placeholderImages/RecipePlaceholder.png" class="galleryBoxImage" alt="">
+                    <label class="dishLabel">Dish Label</label>
+                </div>
             </div>
-            <p class="galleryMore">More...</p> <!--Probably will either need to learn how to make that more button work or get rid of it-->
+            <!-- <p class="galleryMore">More...</p>  -->
+            <!--Probably will either need to learn how to make that more button work or get rid of it-->
         </div>
         <!-- Desserts and Treats -->
-        <div id="treatsBox">
+        <div id="treatsBox" class="sugestionSection">
             <h2>Desserts and Treats</h2>
             <div class="galleryBoxesBox"> <!--See if I can have these be filler for a bit while I get the info from my dad so these can link somewhere-->
                 <div class="galleryBox"> <!--The Label tag might be easier to use here. I don't know yet though-->
@@ -112,11 +129,16 @@
                     <img src="/images/placeholderImages/RecipePlaceholder.png" class="galleryBoxImage" alt="">
                     <label class="dishLabel">Dish Label</label>
                 </div>
+                <div class="galleryBox"> <!--The Label tag might be easier to use here. I don't know yet though-->
+                    <img src="/images/placeholderImages/RecipePlaceholder.png" class="galleryBoxImage" alt="">
+                    <label class="dishLabel">Dish Label</label>
+                </div>
             </div>
-            <p class="galleryMore">More...</p> <!--Probably will either need to learn how to make that more button work or get rid of it-->
+            <!-- <p class="galleryMore">More...</p>  -->
+            <!--Probably will either need to learn how to make that more button work or get rid of it-->
         </div>
         <!-- Quick Meals -->
-        <div id="QuickMealBox">
+        <div id="QuickMealBox" class="sugestionSection">
             <h2>Quick Meals</h2>
             <div class="galleryBoxesBox"> <!--See if I can have these be filler for a bit while I get the info from my dad so these can link somewhere-->
                 <div class="galleryBox"> <!--The Label tag might be easier to use here. I don't know yet though-->
@@ -135,20 +157,26 @@
                     <img src="/images/placeholderImages/RecipePlaceholder.png" class="galleryBoxImage" alt="">
                     <label class="dishLabel">Dish Label</label>
                 </div>
+                <div class="galleryBox"> <!--The Label tag might be easier to use here. I don't know yet though-->
+                    <img src="/images/placeholderImages/RecipePlaceholder.png" class="galleryBoxImage" alt="">
+                    <label class="dishLabel">Dish Label</label>
+                </div>
             </div>
-            <p class="galleryMore">More...</p> <!--Probably will either need to learn how to make that more button work or get rid of it-->
+            <!-- <p class="galleryMore">More...</p>  -->
+            <!--Probably will either need to learn how to make that more button work or get rid of it-->
         </div>
     </main>
 
 
     <!-- Start of the footer -->
     <footer>
-        <img src="../images/placeholderImages/logoPlaceholder.png" alt=""> <!--Logo--> <!--Remember to come back and fix this one too. Also remember to write the alt-->
+        <img src="../images/placeholderImages/logoPlaceholder.png" alt="" class="myFooterLogo"> <!--Logo--> <!--Remember to come back and fix this one too. Also remember to write the alt-->
         <div class="footerSocialsBox">
-            <img src="../images/instagramLogo.png" alt="Instagram Logo"> <!--It feels so wrong to leave it big but I know we are adding CSS in the next lesson. I can fix it after the next lesson.-->
-            <!--He mainly just has an instagram. Go through and check if there is any other socials you would need to link to.-->
-            <p>&copy; &bull; 2024 Grace Lewis</p> 
+            <img src="../images/instagramLogo.png" alt="Instagram Logo" class="othersFooterLogo">
+            <!--It feels so wrong to leave it big but I know we are adding CSS in the next lesson. I can fix it after the next lesson.-->
+            <!--He mainly just has an instagram. Go through and check if there is any other socials you would need to link to.--> 
         </div>
+        <p>&copy; 2024 Grace Lewis</p>
     </footer>
 </body>
 </html>

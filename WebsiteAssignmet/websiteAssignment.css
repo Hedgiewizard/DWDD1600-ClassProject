@@ -18,10 +18,23 @@ header {
     justify-content: center;
     padding: 0rem;
     background-color: #022326;
+    color: white;
 }
 
 header img{
     height: 1.5rem;
+}
+
+.nameAndLogo{
+    display: flex;
+}
+
+.nameAndLogo h1{
+    font-size: 1rem;
+}
+
+.nameAndLogo p{
+    padding: 0 .75rem;
 }
 
 /*Nav CSS*/
@@ -30,12 +43,12 @@ nav ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin: 1rem;
     background-color: #022326;
 }
 
 li a {
-    padding: 2rem 2.5rem;
+    padding: 3rem 2.5rem;
     text-decoration: none;
     color: white;
 }
@@ -43,12 +56,20 @@ li a {
 /*Main CSS*/
 
 /* Hero CSS */
+.titleMatchHeader{
+    background-color: #022326;
+    padding: 1rem 2.1%;
+    margin: 0rem 0rem;
+    color: #f5f5f5;
+    font-size: 1.5rem;
+}
+
 .pageNav{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #285059;
-    padding: 5rem;
+    padding: 11rem 5rem;
     color: #f5f5f5;
 }
 
@@ -80,6 +101,7 @@ li a {
     border-radius: .75rem;
 }
 
+
 /* Gallery Boxes and Co */
 h2 {
     padding: 0 2.1%;
@@ -88,20 +110,149 @@ h2 {
 .galleryBoxesBox{
     display: flex;
     justify-content: center;
+    padding: 0 15rem;
+}
+
+.sugestionSection{
+    padding-top: 2rem;
 }
 
 .galleryBox{
     margin: .25% 2.5%;
+    color: #592B02;
+    justify-content: center;
+    text-align: center;
+}
+
+/* galleryBox link CSS */
+.galleryBox a{
+    color: #592B02;
+    text-decoration: none;
+}
+
+.galleryBox a:hover{
+    color: #8C613B;
+    font-weight: 500;
 }
 
 .galleryBoxImage{
-    width: 20vw;
+    width: 15.25vw;
 }
 
 .galleryMore{
-    padding: 0 1.5rem 3rem 1.5rem;
+    padding: 0 1.75rem 3rem 5rem;
 }
 
 
 /*Footer CSS*/
+footer{
+    padding: 2rem 1rem;
+    margin-top: 5rem;
+    justify-items: center;
+    background-color: #285059;
+}
 
+.myFooterLogo{
+    height: 55px;
+    padding: .5rem 0;
+}
+
+.othersFooterLogo{
+    width: 50px;
+}
+
+/* about.html Specific CSS */
+.bios{
+    padding: 2rem 3.1%;
+}
+
+.bios img{
+    width: 15vw;
+    height: fit-content;
+}
+
+.richIntro, .myIntro{
+    display: flex;
+}
+
+.richIntro h2{
+    padding: .125rem 0;
+}
+
+.richIntro img{
+    padding-right: 2rem;
+}
+
+.myIntro h2{
+    padding: .125rem 0;
+}
+
+.myIntro img{
+    padding-left: 2rem;
+}
+
+/* Recipe Outline CSS */
+.outlineMain{
+    padding: 2rem 3.1%;
+    display: flex;
+}
+
+.outlineMain img{
+    width: 18vw;
+    height: fit-content;
+}
+
+
+.walkthroughAndRecipe{
+    padding-left: 2rem;
+}
+
+.skipButton{
+    text-decoration: none;
+    background-color: #8C613B;
+    color: white;
+    font-size: 0.75rem;
+    padding: .75rem;
+    margin: .15rem .65rem .15rem 0;
+    border-radius: .75rem;
+}
+
+.outlineMain h2{
+    padding: .25rem 0;
+}
+
+.missingImg{
+    width: 30px;
+}
+
+.materialsIngredientsContents{
+    display: flex;
+}
+
+.materialsIngredientsContentsText{
+    padding-left: 1rem;
+}
+
+#recipeBlock{
+    background-color:#bfbfbd;
+    margin: 2rem 0;
+    padding: 1.5rem 2.5rem;
+    color: #022326;
+}
+
+#recipeBlockHeader li{
+    font-size: 0.75rem;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+ol a{
+    padding: 0;
+    color: #285059;
+}
+
+ol a:hover{
+    color: #022326;
+}

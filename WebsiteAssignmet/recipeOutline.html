@@ -1,111 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta Tags -->
     <meta name="description" content="This is the base outline for the recipes."/>
     <meta name="author" content="Grace Lewis">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
     <title>Katsudon Japanese Pork Recipe</title>
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="websiteAssignment.css">
+    <!-- Fonts & Such -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <!-- Start of the header -->
+<div class="pageTopper">
     <header>
         <div class="nameAndLogo">
-            <img src="../images/placeholderImages/logoPlaceholder.png" alt=""> <!--remember to go back and add the correct image-->
-            <p>SirCooksALot</p>
+            <!--<img src="../images/placeholderImages/logoPlaceholder.png" alt="">--> <!--add logo image here--> <!--Go back and find the actual logo you had and add it here. This is just there so you can make sure everything works--> <!--The actual logo is saved with my personal projects on an external hard drive-->
+            <!-- <p>SirCooksALot</p> -->
+            <h1>SirCooksALot</h1>
+            <p>From our kitchen to yours</p>
         </div> 
         <!-- Start of the nav bar -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Gallery</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="">Helpful Tips</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Helpful Tips</a></li>
+        </ul>
+    </nav>
+</div>
 
-<!-- Start of the Main -->
-    <main>
-        <img src="" alt=""> <!--This will be the image example of what the recipe should look like-->
-        <div class="walkthroughAndRecipe">
-            <div class="preRecipe">
-                <h1>Katsudon Japanese Pork</h1>
-                <a href="#recipeBlock">Skip to Recipe</a>
-                <!-- If I'm being completly for real I didn't think I would have to code this untill a bit later, but it's fine. I'll write that copy too. 
-                Why should you care?-->
-                <p>Katsudon Japanese Pork is a favorite dinner of my family. It’s relatively easy to prep and tastes really good. My dad has been making this for years, and it is one of the first Asian recipes he started making regularly when he started trying to branch out into other cultures’ dishes.</p>
-            </div>
-            <div class="MaterialsIngredients">
-                <h2>Required Materials and Ingredients</h2>
+
+<!-- Start of the main -->
+<main>
+<div class="outlineMain">    
+    <img src="/images/placeholderImages/recipePreviewImagePlaceholder.jpeg" alt="" class="recipeExample"> <!--This will be the image example of what the recipe should look like-->
+    <div class="walkthroughAndRecipe">
+        <div class="preRecipe">
+            <h1>Katsudon Japanese Pork</h1>
+            <a href="#recipeBlock" class="skipButton">Skip to Recipe</a>                <!-- If I'm being completly for real I didn't think I would have to code this untill a bit later, but it's fine. I'll write that copy too. 
+            Why should you care?-->
+            <p>Katsudon Japanese Pork is a favorite dinner of my family. It’s relatively easy to prep and tastes really good. My dad has been making this for years, and it is one of the first Asian recipes he started making regularly when he started trying to branch out into other cultures’ dishes.</p>
+        </div>
+        <div class="materialsIngredients">
+            <h2>Required Materials and Ingredients</h2>
+            <div class="materialsIngredientsContents">
+                <img src="/images/placeholderImages/missingAnythingPlaceholder.jpeg" alt="" class="missingImg">
                 <!-- What things might the average person not have have in their house that you need for this recipe? Also decide if you want to. 
                 Also decide if you want to add an image of some of the out there things. We're gonna write this in the definitions list things-->
-                <p>I don't know yet. I'd need to go through the recipe and double check what materials you need and what ones it's just convient to have. Also any sauses or spices that might not be in the average families house.</p>
-                <!-- For the definitions and definition lists. I'm going to list some of the mabye less well known ingredients or tools and why you use them and what a good subsitute could be if you don't have it. -->
-                <dl>
-                    <dt>Panko</dt>
-                        <dd></dd>
-                    <dt>Dashi stock</dt>
-                        <dd></dd>
-                    <dt>Mirin</dt>
-                        <dd></dd>
-                    <dt>Scallions</dt>
-                        <dd>Scallions is just a fancy name for green onions. They aren't necicissary for this recipe but they do add good flavor.</dd>
-                </dl>
-            </div>
-            <div id="recipeBlock">
-                <div class="recipeBlockHeader">
-                    <h2>KATSUDON JAPANESE PORK</h2>
+                <div class="materialsIngredientsContentsText">
+                    <p>I don't know yet. I'd need to go through the recipe and double check what materials you need and what ones it's just convient to have. Also any sauses or spices that might not be in the average families house.</p>
+                    <!-- For the definitions and definition lists. I'm going to list some of the mabye less well known ingredients or tools and why you use them and what a good subsitute could be if you don't have it. -->
+                    <dl>
+                        <dt>Panko</dt>
+                            <dd></dd>
+                        <dt>Dashi stock</dt>
+                            <dd></dd>
+                        <dt>Mirin</dt>
+                            <dd></dd>
+                        <dt>Scallions</dt>
+                            <dd>Scallions is just a fancy name for green onions. They aren't necicissary for this recipe but they do add good flavor.</dd>
+                    </dl>
                 </div>
-                <h3>Ingredients</h3>
-                <p>For the Pork</p>
-                    <ul class="ingredients">
-                        <li>6 center-cut (boneless pork chops, pounded down to a <strong>centimeter</strong> thick)</li>
-                        <li>salt and pepper</li>
-                        <li>flour (for dusting)</li>
-                        <li>3 egg</li>
-                        <li>3 cup panko</li>
-                        <li>oil (for frying)</li>
-                    </ul>
-                <p>For the Sauce</p>
-                    <ul>
-                        <li>1.5 cup dashi stock or chicken stock</li>
-                        <li>6 teaspoons sugar</li>
-                        <li>3 tablespoon soy sauce</li>
-                        <li>6 teaspoons Mirin</li>
-                    </ul>
-                <p>To Finish</p> 
-                    <ul class="ingredients">
-                        <li>6 large eggs</li>
-                        <li>3 medium onion (thinly sliced)</li>
-                        <li>6 servings steamed white rice</li> <!-- figure out what exactly "six servings" means -->
-                        <li>3 scallion (chopped)</li>
-                    </ul>
-                <h3>Instructions</h3>
-                    <ol class="instructions">
-                        <!-- rice instruction. Write that out -->
-                        <li>Start by cooking your rice. We'll prep everything else while it's cooking. If you don't have a specific way of making rice, there are instructions <a href="https://www.recipetineats.com/how-to-cook-rice/" target="_blank">here</a>!</li>
-                        <li>Now is also a good time to cut your onions that we will be using later. Slice the onions into about 0.25-0.5 inch slices. Once you have cut your onions, set them aside. We will use them later.</li>
-                        <li>Next, <em>Prep the Pork</em>. For this recipe, you are going to want to pound your pork slices to make sure they are thin. I recommend putting them in a Ziplock bag or something similar and then pound the pork slices. (It helps decrease the mess and makes it easier.)</li>
-                        <li>Season the pounded pork chops with salt and pepper, and dust with a light, even coating of flour. In one shallow bowl, beat the egg. Put the panko into another shallow bowl.</li>
-                        <li>Add a thin, even layer of oil to a cast iron pan or skillet over medium heat. The oil is ready when you throw a panko breadcrumb into the oil, and it sizzles. Dip the pork into the egg to coat. Transfer the pork to the panko and press it evenly into the meat to get a good coating.</li>
-                        <li>Carefully lay the pork chops in the hot oil and cook for 5-6 minutes on one side, until golden brown. Flip and cook the other side for another 5-6 minutes. Drain on a plate lined with a paper towel.</li>
-                        <!-- I need to double check these steps with my dad before I add them -->
-                        <li><em>Sauce</em> Instructions (I need to ask my dad and double-check)</li>
-                        <li><em>Finishing</em> Instructions (I need to ask my dad and double-check)(You will use the onions again here though)</li>
-                    </ol>
             </div>
         </div>
+        <div id="recipeBlock">
+            <div class="recipeBlockHeader">
+                <h2>KATSUDON JAPANESE PORK</h2>
+            </div>
+            <h3>Ingredients</h3>
+            <p>For the Pork</p>
+                <ul class="ingredients">
+                    <li>6 center-cut (boneless pork chops, pounded down to a <strong>centimeter</strong> thick)</li>
+                    <li>salt and pepper</li>
+                    <li>flour (for dusting)</li>
+                    <li>3 egg</li>
+                    <li>3 cup panko</li>
+                    <li>oil (for frying)</li>
+                </ul>
+            <p>For the Sauce</p>
+                <ul>
+                    <li>1.5 cup dashi stock or chicken stock</li>
+                    <li>6 teaspoons sugar</li>
+                    <li>3 tablespoon soy sauce</li>
+                    <li>6 teaspoons Mirin</li>
+                </ul>
+            <p>To Finish</p> 
+                <ul class="ingredients">
+                    <li>6 large eggs</li>
+                    <li>3 medium onion (thinly sliced)</li>
+                    <li>6 servings steamed white rice</li> <!--figure out what exactly "six servings" means -->
+                    <li>3 scallion (chopped)</li>
+                </ul>
+            <h3>Instructions</h3>
+                <ol class="instructions">
+                    <!-- rice instruction. Write that out -->
+                    <li>Start by cooking your rice. We'll prep everything else while it's cooking. If you don't have a specific way of making rice, there are instructions <a href="https://www.recipetineats.com/how-to-cook-rice/" target="_blank">here</a>!</li>
+                    <li>Now is also a good time to cut your onions that we will be using later. Slice the onions into about 0.25-0.5 inch slices. Once you have cut your onions, set them aside. We will use them later.</li>
+                    <li>Next, <em>Prep the Pork</em>. For this recipe, you are going to want to pound your pork slices to make sure they are thin. I recommend putting them in a Ziplock bag or something similar and then pound the pork slices. (It helps decrease the mess and makes it easier.)</li>
+                    <li>Season the pounded pork chops with salt and pepper, and dust with a light, even coating of flour. In one shallow bowl, beat the egg. Put the panko into another shallow bowl.</li>
+                    <li>Add a thin, even layer of oil to a cast iron pan or skillet over medium heat. The oil is ready when you throw a panko breadcrumb into the oil, and it sizzles. Dip the pork into the egg to coat. Transfer the pork to the panko and press it evenly into the meat to get a good coating.</li>
+                    <li>Carefully lay the pork chops in the hot oil and cook for 5-6 minutes on one side, until golden brown. Flip and cook the other side for another 5-6 minutes. Drain on a plate lined with a paper towel.</li>
+                    <!-- I need to double check these steps with my dad before I add them -->
+                    <li><em>Sauce</em> Instructions (I need to ask my dad and double-check)</li>
+                    <li><em>Finishing</em> Instructions (I need to ask my dad and double-check)(You will use the onions again here though)</li>
+                </ol>
+        </div>
+        </div>
+    </div> 
     </main>
 
 <!-- Start of the footer -->
-    <footer>
-        <img src="../images/placeholderImages/logoPlaceholder.png" alt=""> <!--Logo-->
-        <div class="footerSocialsBox">
-            <a href="https://www.instagram.com/sircooksalot_richlewis/" target="_blank"><img src="../images/instagramLogo.png" alt="Instagram Logo"></a><!--He mainly just has an instagram. Go through and check if there is any other socials you would need to link to.-->
-            <p>&copy; &bull; 2024 Grace Lewis</p> 
-        </div>
-    </footer>
-    
+<footer>
+    <img src="../images/placeholderImages/logoPlaceholder.png" alt="" class="myFooterLogo"> <!--Logo--> <!--Remember to come back and fix this one too. Also remember to write the alt-->
+    <div class="footerSocialsBox">
+        <img src="../images/instagramLogo.png" alt="Instagram Logo" class="othersFooterLogo">
+        <!--It feels so wrong to leave it big but I know we are adding CSS in the next lesson. I can fix it after the next lesson.-->
+        <!--He mainly just has an instagram. Go through and check if there is any other socials you would need to link to.--> 
+    </div>
+    <p>&copy; 2024 Grace Lewis</p>
+</footer>
 </body>
 </html>

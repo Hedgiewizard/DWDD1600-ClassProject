@@ -1,63 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta Tags -->
     <meta name="description" content="This page is for you to get to know the people that contruibuted to this site."/>
     <meta name="author" content="Grace Lewis">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
     <title>SirCooksALot - About</title>
-    <!-- <link rel="stylesheet" href="websiteAssignment.css"> -->
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="websiteAssignment.css">
+    <!-- Fonts & Such -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <!-- Start of the header -->
-    <header>
-        <div class="nameAndLogo">
-            <img src="../images/placeholderImages/logoPlaceholder.png" alt=""> <!--remember to go back and add the correct image-->
-            <p>SirCooksALot</p>
-        </div> 
-        <!-- Start of the nav bar -->
+    <div class="pageTopper">
+        <header>
+            <div class="nameAndLogo">
+                <!--<img src="../images/placeholderImages/logoPlaceholder.png" alt="">--> <!--add logo image here--> <!--Go back and find the actual logo you had and add it here. This is just there so you can make sure everything works--> <!--The actual logo is saved with my personal projects on an external hard drive-->
+                <!-- <p>SirCooksALot</p> -->
+                <h1>SirCooksALot</h1>
+                <p>From our kitchen to yours</p>
+            </div> 
+            <!-- Start of the nav bar -->
+        </header>
         <nav>
             <ul>
                 <li><a href="index.html">Gallery</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="">Helpful Tips</a></li>
+                <li><a href="#">Helpful Tips</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
 
 
-    <!-- Start of the Main -->
+    <!-- Start of the main -->
     <main>
-        <div class="richIntro">
-            <img src="../images/placeholderImages/PersonPlaceHolder.png" alt="Currently it is a doodle of a guy doing a thumbs up. Later it will be a picture of my dad, SirCooksALot. I'll probably take the one from his profile on instagram. I am just getting the layout right now"> <!--Picture of dad or if we go with the graphic idea, a graphic of dad-->
-            <p> SirCooksALot is a husband and a father of 5 who loves to cook and share his creations with his friends and family!
-            <br>If you want to see more of what he does go and check out his <a href="https://www.instagram.com/sircooksalot_richlewis/" target="_blank">Instagram</a>.
-            </p><!--go double check how to add a tab in HTML because I prefer the way that looks-->
-            <!-- Also get more from dad of other text he wants added here -->
-        </div>
-        <div class="myIntro">
-            <img src="../images/placeholderImages/PersonPlaceHolder.png" alt="Currently it is a doodle of a guy doing a thumbs up. Later it will be a picture of me."> <!--Remember to go back and add photo of you-->
-            <p>I typically go by YaBoiAchilles online. I am currently, most of the way through college, who likes to eat and cook good food.
-            <br> Why am I doing this? What made this website happen? Well, back in like 2018-19, my dad suggested I make him his own cooking website. He was getting really into cooking a bunch of new recipes and posting about them, and I was several years deep into learning to code and design; it made complete sense. Unfortunately, both of us were just busy enough that any time I had time to plan this out, he was busy, and any he had time to plan this out, I was busy. (We both also HEAVILY underestimated how much planning and effort it took to plan your own site, so it was taking a lot longer than either of us planned, but we’re not going to talk about that.) That lead to this plan ending up on the back burner for years.
-            <br> Come back to today: I’m in college, my siblings are starting to move out, and I realize I don’t have too many of the recipes I enjoy from my dad and will probably be moving out in the near future, and it would be nice to have those. This site is an excellent way for me to collect all the recipes my dad has made staples throughout the years and share them with other college-age students moving out and living on their own who still want good homecooked recipes but don’t really know where to start when it comes to looking them up yourself. (We’ve also learned that my dad’s notes app copy of these recipes makes sense to him but is a bit difficult to understand to others, so this gives me an excuse to translate these into a way of writing that is a lot easier for others also to understand but we’re also not going to talk about that.)</p>
-            <p>If you were courious the college I attend is Utah Valley University. </p>
-            <address>800 W University Pkwy,
-                <br> Orem, UT 84058 
-                <br>Toll-free: <a href="tel:8018638000">(801) 863-8000</a>
-            </address>
-            <!-- If you wanted to it probably wouldn't hurt to put a little, "here's other places you can find me!" here -->
+        <h1 class="titleMatchHeader">About</h1>
+        <div class="bios">
+            <div class="richIntro">
+                <img src="../images/placeholderImages/PersonPlaceHolder.png" alt="Currently it is a doodle of a guy doing a thumbs up. Later it will be a picture of my dad, SirCooksALot. I'll probably take the one from his profile on instagram. I am just getting the layout right now"> <!--Picture of dad or if we go with the graphic idea, a graphic of dad-->
+                <div class="bioText">
+                    <h2>Hi I’m SirCooksALot!</h2>
+                    <p> SirCooksALot is a husband and a father of 5 who loves to cook and share his creations with his friends and family!
+                    <br>If you want to see more of what he does go and check out his <a href="https://www.instagram.com/sircooksalot_richlewis/" target="_blank">Instagram</a>.
+                    </p><!--go double check how to add a tab in HTML because I prefer the way that looks-->
+                <!-- Also get more from dad of other text he wants added here -->
+                </div>
+            </div>
+            <div class="myIntro">
+                <div class="bioText">
+                    <h2>Hi I’m his kid! I’m maintaining the site!</h2>
+                    <p>I typically go by YaBoiAchilles online. I am currently, most of the way through college, who likes to eat and cook good food.
+                        <br> Why am I doing this? What made this website happen? Well, back in like 2018-19, my dad suggested I make him his own cooking website. He was getting really into cooking a bunch of new recipes and posting about them, and I was several years deep into learning to code and design; it made complete sense. Unfortunately, both of us were just busy enough that any time I had time to plan this out, he was busy, and any he had time to plan this out, I was busy. (We both also HEAVILY underestimated how much planning and effort it took to plan your own site, so it was taking a lot longer than either of us planned, but we’re not going to talk about that.) That lead to this plan ending up on the back burner for years.
+                        <br> Come back to today: I’m in college, my siblings are starting to move out, and I realize I don’t have too many of the recipes I enjoy from my dad and will probably be moving out in the near future, and it would be nice to have those. This site is an excellent way for me to collect all the recipes my dad has made staples throughout the years and share them with other college-age students moving out and living on their own who still want good homecooked recipes but don’t really know where to start when it comes to looking them up yourself. (We’ve also learned that my dad’s notes app copy of these recipes makes sense to him but is a bit difficult to understand to others, so this gives me an excuse to translate these into a way of writing that is a lot easier for others also to understand but we’re also not going to talk about that.)</p>
+                        <p>If you were courious the college I attend is Utah Valley University. </p>
+                        <address>800 W University Pkwy,
+                            <br> Orem, UT 84058 
+                            <br>Toll-free: <a href="tel:8018638000">(801) 863-8000</a>
+                        </address>
+                        <!-- If you wanted to it probably wouldn't hurt to put a little, "here's other places you can find me!" here -->
+                </div>
+                <img src="../images/placeholderImages/PersonPlaceHolder.png" alt="Currently it is a doodle of a guy doing a thumbs up. Later it will be a picture of me."> <!--Remember to go back and add photo of you-->
+            </div>
         </div>
     </main>
 
+
     <!-- Start of the footer -->
     <footer>
-        <img src="../images/placeholderImages/logoPlaceholder.png" alt=""> <!--Logo-->
+        <img src="../images/placeholderImages/logoPlaceholder.png" alt="" class="myFooterLogo"> <!--Logo--> <!--Remember to come back and fix this one too. Also remember to write the alt-->
         <div class="footerSocialsBox">
-            <img src="../images/instagramLogo.png" alt=""> <!--He mainly just has an instagram. Go through and check if there is any other socials you would need to link to.-->
-            <p>&copy; &bull; 2024 Grace Lewis</p> 
-            <p>And if you need to get ahold of me for more information, just shoot me an <a href="mailto:10965759@uvu.edu">email</a>!</p>
+            <img src="../images/instagramLogo.png" alt="Instagram Logo" class="othersFooterLogo">
+            <!--It feels so wrong to leave it big but I know we are adding CSS in the next lesson. I can fix it after the next lesson.-->
+            <!--He mainly just has an instagram. Go through and check if there is any other socials you would need to link to.--> 
         </div>
+        <p>&copy; 2024 Grace Lewis</p>
+        <p>And if you need to get ahold of me for more information, just shoot me an <a href="mailto:10965759@uvu.edu">email</a>!</p>
     </footer>
 </body>
 </html>
